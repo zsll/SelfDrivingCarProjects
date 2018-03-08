@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2DC4B3402D7D45F88ABA0CAF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 21772B9370D6444798A84C74 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FDC2827D84D74A53952EE058 /* CMake Rules */,
+			);
+			dependencies = (
+				927F5B212BE44F9C838D61F7 /* PBXTargetDependency */,
+				2DE8C76C67694C7799C984D3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D5259DE5BD2A48A8B746C994 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DB31D097BA2446D0B74A4988 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E081D8BB4016403F93595A1F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A444E7F65B846F49480D8BE /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */ = {isa = PBXBuildFile; fileRef = F93DAF7073FC409F8062F0F4 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */; };
+		353FDDACAFDC454D935DDDF6 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 818BF8D37C7142C0970BC001 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */; };
+		81C5147CCE43433C8EFA2D14 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */ = {isa = PBXBuildFile; fileRef = F525659D18604A08A644D785 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		01D1F365CB434C7DABE37DF8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7A1FEB306F084AE99A24BFF5 = {
+			isa = PBXBuildStyle;
+		};
+		8E28295F67CE4F51A2866878 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		A0E423B7D68548CE869DC419 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F9AC075EFD0542FDA768DE06 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		27073FB42AC64BDE8E074D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73CA5E1C2B094474A0884D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5259DE5BD2A48A8B746C994;
+			remoteInfo = ZERO_CHECK;
+		};
+		8D34F71A45664BAB992AC8E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73CA5E1C2B094474A0884D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5259DE5BD2A48A8B746C994;
+			remoteInfo = ZERO_CHECK;
+		};
+		F10D1208529447FDA16FA232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73CA5E1C2B094474A0884D7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDBCA6BA2EC846489B9E44C9;
+			remoteInfo = particle_filter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E3326ADFB0E471E9B3F7E55 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		818BF8D37C7142C0970BC001 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BBF59402BA6349C999D43020 /* particle_filter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = particle_filter; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50D540C2468423C9F6985B9 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F525659D18604A08A644D785 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = particle_filter.cpp; path = src/particle_filter.cpp; sourceTree = SOURCE_ROOT; };
+		F93DAF7073FC409F8062F0F4 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0310AD359BBD48BB8681146A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				BA61139751A24A18A8D6EB7B /* CMake Rules */,
+				C50D540C2468423C9F6985B9 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		06CE62FEA133467BA8288784 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		071350B98AD64307BF288895 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8DF20AB4F2684D9A8F2CB8A0 /* particle_filter */,
+				0310AD359BBD48BB8681146A /* ALL_BUILD */,
+				6F7A82BA2F934A7DA5B3E737 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		2A60D2E6978C45D88F77D642 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93DAF7073FC409F8062F0F4 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */,
+				F525659D18604A08A644D785 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		67B5C3CCEF88472D8AA27E2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF59402BA6349C999D43020 /* particle_filter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F7A82BA2F934A7DA5B3E737 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				06CE62FEA133467BA8288784 /* CMake Rules */,
+				6E3326ADFB0E471E9B3F7E55 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		8561A820BEDF41AE8C8F88CD = {
+			isa = PBXGroup;
+			children = (
+				071350B98AD64307BF288895 /* Sources */,
+				B4402B1DF4CE48469BB2FE74 /* Resources */,
+				67B5C3CCEF88472D8AA27E2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DF20AB4F2684D9A8F2CB8A0 /* particle_filter */ = {
+			isa = PBXGroup;
+			children = (
+				2A60D2E6978C45D88F77D642 /* Source Files */,
+				818BF8D37C7142C0970BC001 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeLists.txt */,
+			);
+			name = particle_filter;
+			sourceTree = "<group>";
+		};
+		B4402B1DF4CE48469BB2FE74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA61139751A24A18A8D6EB7B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDBCA6BA2EC846489B9E44C9 /* particle_filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E542077B5914E208D5791D6 /* Build configuration list for PBXNativeTarget "particle_filter" */;
+			buildPhases = (
+				C8EADA90284344A59D130615 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9EDC45D6704B4FAEE0437B /* PBXTargetDependency */,
+			);
+			name = particle_filter;
+			productName = particle_filter;
+			productReference = BBF59402BA6349C999D43020 /* particle_filter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73CA5E1C2B094474A0884D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 9E5D398F927441A8A920A810 /* Build configuration list for PBXProject "PARTICLE_FILTER" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F9AC075EFD0542FDA768DE06 /* Debug */,
+				A0E423B7D68548CE869DC419 /* Release */,
+				01D1F365CB434C7DABE37DF8 /* MinSizeRel */,
+				8E28295F67CE4F51A2866878 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8561A820BEDF41AE8C8F88CD;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				2DC4B3402D7D45F88ABA0CAF /* ALL_BUILD */,
+				D5259DE5BD2A48A8B746C994 /* ZERO_CHECK */,
+				EDBCA6BA2EC846489B9E44C9 /* particle_filter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		732132492979432BB7F4C4B8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CE5FA65B178B4F259FBCC931 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E081D8BB4016403F93595A1F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master -f /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FDC2827D84D74A53952EE058 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master -f /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8EADA90284344A59D130615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A444E7F65B846F49480D8BE /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/main.cpp */,
+				81C5147CCE43433C8EFA2D14 /* /Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/src/particle_filter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B9EDC45D6704B4FAEE0437B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5259DE5BD2A48A8B746C994 /* ZERO_CHECK */;
+			targetProxy = 8D34F71A45664BAB992AC8E8 /* PBXContainerItemProxy */;
+		};
+		2DE8C76C67694C7799C984D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDBCA6BA2EC846489B9E44C9 /* particle_filter */;
+			targetProxy = F10D1208529447FDA16FA232 /* PBXContainerItemProxy */;
+		};
+		927F5B212BE44F9C838D61F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5259DE5BD2A48A8B746C994 /* ZERO_CHECK */;
+			targetProxy = 27073FB42AC64BDE8E074D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02A32EE3393543EA90231C70 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		072D52446E224E3B9465D559 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		096C5BF1A87E4FB9AAAE9AA3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = MinSizeRel;
+		};
+		0CDB47C3FF2742948FAEDEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4798FEB111904E169B7E9E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9B0925530A56472AA97D8D05 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A1CE0FD01A4C431DBAF563D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = Debug;
+		};
+		AC374AFAB78349248F90BB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master/build";
+			};
+			name = Release;
+		};
+		AFC91BB3EB0C40B9B9BF3F5E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C701258AC347423EBB7B074C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D40A013A79FD487A84B7AA8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D6518E8C345841C39CBCA0F7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC22E037E0BF42E597908704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E8AB40333D084BC8ACB94278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F65B46A665184700A2CD97FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FEBBAEFAAE674B44AAC6E26C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1*/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = particle_filter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/yliu/Downloads/CarND-Kidnapped-Vehicle-Project-master";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21772B9370D6444798A84C74 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC22E037E0BF42E597908704 /* Debug */,
+				D40A013A79FD487A84B7AA8F /* Release */,
+				02A32EE3393543EA90231C70 /* MinSizeRel */,
+				072D52446E224E3B9465D559 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5E542077B5914E208D5791D6 /* Build configuration list for PBXNativeTarget "particle_filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C701258AC347423EBB7B074C /* Debug */,
+				4798FEB111904E169B7E9E86 /* Release */,
+				AFC91BB3EB0C40B9B9BF3F5E /* MinSizeRel */,
+				FEBBAEFAAE674B44AAC6E26C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9E5D398F927441A8A920A810 /* Build configuration list for PBXProject "PARTICLE_FILTER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1CE0FD01A4C431DBAF563D0 /* Debug */,
+				AC374AFAB78349248F90BB7E /* Release */,
+				096C5BF1A87E4FB9AAAE9AA3 /* MinSizeRel */,
+				9B0925530A56472AA97D8D05 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB31D097BA2446D0B74A4988 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AB40333D084BC8ACB94278 /* Debug */,
+				0CDB47C3FF2742948FAEDEEA /* Release */,
+				F65B46A665184700A2CD97FC /* MinSizeRel */,
+				D6518E8C345841C39CBCA0F7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73CA5E1C2B094474A0884D7E /* Project object */;
+}
